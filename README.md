@@ -146,7 +146,6 @@ To generate a Pareto Front to show the fairness-accuracy trade-off, it is needed
 ## Citation
 
 If you find this repo useful, please consider citing our paper:
-
 ```
 @article{zhang2023model,
   title={Model Debiasing via Gradient-based Explanation on Representation},
