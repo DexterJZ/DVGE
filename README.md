@@ -89,7 +89,7 @@ Under `DVGE/outputs/<vae_name>/z_and_y/`, create two folders `train/` and `val/`
 mkdir /outputs/<vae_name>/z_and_y/train/ /outputs/<vae_name>/z_and_y/val/
 ```
 
-And move `000001.npz` ~ `180000.npz` to `train/`, move `180001.npz` ~ `202599.npz` to `val/`. `<vae_name>` can be `factor_celeba` and `vanilla_celeba`.
+And move `000001.npz` ~ `180000.npz` to `train/`, move `180001.npz` ~ `202599.npz` to `val/`. `<vae_name>` can be `factor_celeba` or `vanilla_celeba`.
 
 After splitting the latent code, the output folder structure would look like as below.
 ```
