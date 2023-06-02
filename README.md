@@ -145,7 +145,7 @@ To generate a Pareto Front to show the fairness-accuracy trade-off, it is needed
 
 ## Citation
 
-If you find our work useful, please consider citing our paper:
+If you find this repo useful, please consider citing our paper:
 
 ```
 @article{zhang2023model,
