@@ -70,8 +70,6 @@ For DVGE-N (DVGE with a non-disentangled VAE), we use [VanillaVAE](https://arxiv
 sh scripts/vanilla_celebat.sh
 ```
 
-The hyperparameter `--gamma` in the script is tunable.
-
 ### Latent Code Generation
 
 For DVGE-D, generate the latent code by runing
@@ -143,7 +141,7 @@ The latent code used for training the downstream task model can be specified by 
 
 The index number of the best sensitive classifier checkpoint can be specified at `--sens_ckpt` in the script.
 
-To generate Pareto Fronts, it is needed to sweep a range of `--eta1` for $\eta_{1}$ and `--eta2` for $\eta_{2}$ in the script.
+To generate a Pareto Front to show the fairness-accuracy trade-off, it is needed to sweep a range of values for `--eta1` and `--eta2` in the script which correspond to $\eta_{1}$ and $\eta_{2}$ in the paper.
 
 ## Citation
 
