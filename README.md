@@ -157,7 +157,7 @@ If you find this repo useful, please consider citing our paper:
 
 ## Acknowledgements
 
-We would like to give credits to the authors of the following repos/codes that we refered to for our implementation.
+We would like to thank the authors of the following repos/codes that we refered to for our implementation.
 - [FactorVAE](https://github.com/1Konny/FactorVAE) by [WonKwang Lee](https://github.com/1Konny/).
 - [fullgrad-saliency](https://github.com/idiap/fullgrad-saliency) by [Idiap Research Institute](https://github.com/idiap).
 - [FFVAE example](https://gist.github.com/ecreager/e152782ba8c459009ddcae680b4c7684) by [Elliot Creager](https://www.cs.toronto.edu/~creager/)
