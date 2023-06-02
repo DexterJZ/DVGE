@@ -91,17 +91,17 @@ mkdir /outputs/<vae_name>/z_and_y/train/ /outputs/<vae_name>/z_and_y/val/
 
 And move `000001.npz` ~ `180000.npz` to `train/`, move `180001.npz` ~ `202599.npz` to `val/`. `<vae_name>` can be `factor_celeba` or `vanilla_celeba`.
 
-After splitting the latent code, the output folder structure would look like below.
+After splitting the latent code, the output folder structure would look like as shown below.
 ```
 DVGE
 └── outputs
     ├── <vae_name>
         └── z_and_y
-            └── train
-                ├── 000001.npz
-                ├── 000002.npz
-                ├── ...
-                └── 180000.npz
+            ├── train
+            |   ├── 000001.npz
+            |   ├── 000002.npz
+            |   ├── ...
+            |   └── 180000.npz
             └── val
                 ├── 180001.npz
                 ├── 180002.npz
