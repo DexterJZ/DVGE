@@ -143,7 +143,7 @@ The latent code used for training the downstream task model can be specified by 
 
 The index number of the best sensitive classifier checkpoint can be specified at `--sens_ckpt` in the script.
 
-To generate Pareto Fronts, it is needed to sweep a range of `--eta1` for $$\eta_{1}$$ and `--eta2` $$\eta_{2}$$ in the script.
+To generate Pareto Fronts, it is needed to sweep a range of `--eta1` for $\eta_{1}$ and `--eta2` for $\eta_{2}$ in the script.
 
 ## Citation
 
