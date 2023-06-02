@@ -17,7 +17,8 @@ nohup python main.py \
     --beta1_D 0.5 \
     --beta2_D 0.9 \
     --z_dim 10 \
-    --eta 0.1 \
+    --eta1 0.1 \
+    --eta2 0.4 \
     --n_sens 1 \
     --sens_idx 20 \
     --ot_idx 2 \

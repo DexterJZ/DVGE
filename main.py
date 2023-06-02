@@ -76,8 +76,10 @@ if __name__ == "__main__":
                         help='alpha hyperparameter')
     parser.add_argument('--phi', default=1.0, type=float,
                         help='phi hyperparameter')
-    parser.add_argument('--eta', default=1.0, type=float,
-                        help='eta hyperparameter')
+    parser.add_argument('--eta1', default=1.0, type=float,
+                        help='eta1 hyperparameter')
+    parser.add_argument('--eta2', default=0.4, type=float,
+                        help='eta2 hyperparameter')
 
     parser.add_argument('--lr_VAE', default=1e-4, type=float,
                         help='learning rate of the VAE')

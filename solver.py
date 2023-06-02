@@ -44,7 +44,8 @@ class Solver(object):
         self.beta = args.beta
         self.alpha = args.alpha
         self.phi = args.phi
-        self.eta = args.eta
+        self.eta1 = args.eta1
+        self.eta2 = args.eta2
 
         self.n_sens = args.n_sens
         self.sens_idx = args.sens_idx
@@ -804,7 +805,7 @@ class Solver(object):
                 ot_sm = self.ot_fg.saliency(z).data
 
                 # perform bidirectional perturbation
-                new_z = z + self.eta * sens_sm - 0.4 * ot_sm
+                new_z = z + self.eta1 * sens_sm - self.eta2 * ot_sm
 
                 self.net_mode(train=True)
 
